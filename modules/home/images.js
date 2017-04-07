@@ -82,7 +82,7 @@ define(function(require, exports, module) {
 
 				setTimeout(function() {
 						lock = true;
-					}, 1000);
+					}, 2000);
 			}
 			function toRigth() {
 				if(!lock) {
@@ -102,7 +102,7 @@ define(function(require, exports, module) {
 
 				setTimeout(function() {
 						lock = true;
-					}, 1000);
+					}, 2000);
 			}
 			function autoPlay() {
 				// 自动轮播
@@ -115,7 +115,7 @@ define(function(require, exports, module) {
 					{
 						toLeft();
 					}
-				}, 2000);
+				}, 5000);
 			}
 
 			// 图片列表向左滚动
