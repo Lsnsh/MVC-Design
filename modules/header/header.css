@@ -1,0 +1,57 @@
+/*第一栏*/
+.header{
+	position: relative;
+	z-index: 9;
+}
+.header .logo-container {
+	height: 94px;
+	line-height: 94px;
+}
+.header .logo-container img{
+	vertical-align: middle;
+}
+.header .logo-container ul{
+	float: right;
+}
+.header .logo-container ul li{
+	float: left;
+}
+
+/*第二栏->导航栏*/
+.header .nav{
+	width: 100%;
+	height: 54px;
+}
+.header .nav .nav-item{
+	float: left;
+	position: relative;
+	height: 54px;
+	line-height: 54px;
+	padding: 0 30px;
+	border-right: 1px solid #b4b4b4;
+	cursor: pointer;
+}
+.header .nav .nav-item:hover{
+	background-color: white;
+}
+.header .nav .nav-item ul{
+	position: absolute;
+	width: 180px;
+	left: 0;
+	background-color: white;
+	display: none;
+}
+.header .nav .nav-item ul li{
+	width: 150px;
+	padding: 0 15px;
+	height: 54px;
+	line-height: 54px;
+	
+}
+.header .nav a{
+	text-decoration: none;
+	color:black;
+}
+.header .nav li:hover > a{
+	color:#a74d62;
+}

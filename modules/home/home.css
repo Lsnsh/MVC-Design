@@ -1,0 +1,11 @@
+/*主体内容容器*/
+.container{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+	padding-bottom: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	z-index: 1;
+}

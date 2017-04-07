@@ -1,0 +1,104 @@
+/*底部*/
+#footer{
+	width: 900px;
+	padding: 0 30px 30px;
+	background: rgba(255, 255, 255, .9);
+	overflow: hidden;
+	margin-bottom: 36px;
+}
+/*四部分*/
+#footer > div:not(.hr2){
+	float: left;
+	width: 198px;
+	margin-right: 36px;
+}
+#footer > div.last{
+	margin: 0;
+}
+#footer > div > h3{
+	margin-bottom: 5px;
+}
+
+/*latest Posts*/
+#footer .posts .postsList li.posts-item{
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+#footer .posts .postsList li.posts-item:not(.first){
+	padding-top: 10px;
+	border-top: 1px dashed;
+}
+#footer .posts .postsList li.posts-item span{
+	float: left;
+	text-align: center;
+	padding: 2px 15px 0 0;
+}
+#footer .posts .postsList li.posts-item span > em.day{
+	font-size: 25px;
+
+}
+#footer .posts .postsList li.posts-item span > em.month{
+	line-height: 8px;
+	display: block;
+}
+#footer .posts .postsList li.posts-item > a{
+	 color: #4d4d4d;
+}
+
+/*Flickr 图片列表*/    
+#footer .flickr .flickrList li{
+	float: left;
+	margin: 0 8px 8px 0;
+}
+#footer .flickr .flickrList li a img{
+	width: 58px;
+	height: 58px;
+	opacity: 1;
+	transition:all 150ms linear 0s;
+}
+#footer .flickr .flickrList li:hover a img{
+	opacity: .75;
+}
+
+/*About*/
+#footer .about{
+	color: #4d4d4d;
+}
+
+/*Get in Touch*/
+#footer .git{
+	color: #4d4d4d;
+	font-size: 12px;
+}
+#footer .git::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer .git input,textarea{
+	width: 130px;
+	height: 30px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	outline: none;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	font-size: 12px;
+}
+#footer .git textarea{
+	width: 175px;
+	height: 120px;
+	padding-top: 3px;
+}
+#footer .git input[type="submit"]{
+	padding: 0;
+	font-size: 14px;
+	color: #fff;
+    background-color: #ab4d63;
+    transition:all 200ms linear 0s;
+    cursor: pointer;
+}
+#footer .git input[type="submit"]:hover{
+    background-color: #4d87ab;
+}

@@ -1,0 +1,36 @@
+/*descpt-模块*/
+/*what we do*/
+#container .descpt > p.content{
+	float: left;
+	width: 590px;
+	margin-right: 36px;
+}
+
+/*list*/
+#container .descpt > ul.list{
+	list-style-image: url(../../imgs/footer/bullet.png);
+}
+#container .descpt > ul.list::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#container .descpt > ul.list li{
+	line-height: 20px;
+	padding-left: 5px;
+}
+
+/*Web Design Photography Motion Graphic Motion Graphic*/
+#container .descpt > div.intro
+{
+	float: left;
+	width: 198px;
+	margin-top: 36px;
+	text-align: center;
+}
+#container .descpt > div.intro:not(.last){
+	margin-right: 36px;
+}
+#container .descpt > div.intro > img{
+	margin-bottom: 12px;
+}
