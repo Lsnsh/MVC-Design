@@ -1,4 +1,5 @@
 # MVC-demo
-基于经典MVC模式，仿Zeense设计模板的demo
-## 技术栈
+鍩轰簬缁忓吀MVC妯″紡锛屼豢Zeense璁捐妯℃澘鐨刣emo
+
+### 鎶�鏈爤
 jQuery+seaJs
